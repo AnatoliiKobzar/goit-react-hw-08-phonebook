@@ -4,9 +4,9 @@ import { Button, ErrorMessage, Form, FormField } from './ContactForm.styled';
 import * as Yup from 'yup';
 import { SlUserFollow } from 'react-icons/sl';
 import { useDispatch, useSelector } from 'react-redux';
-import { getContact } from 'redux/selectors';
+import { getContact } from 'redux/contacts/selectors';
 import { Report } from 'notiflix';
-import { addContact } from 'redux/operations';
+import { addContact } from 'redux/contacts/operations';
 
 const phoneRegExp = /^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){3,14}(\s*)?$/;
 

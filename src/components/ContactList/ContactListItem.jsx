@@ -14,7 +14,7 @@ import {
 } from '../ContactForm/ContactForm.styled';
 import * as Yup from 'yup';
 import { useDispatch } from 'react-redux';
-import { deleteContact, editContact } from 'redux/operations';
+import { deleteContact, editContact } from 'redux/contacts/operations';
 
 const phoneRegExp = /^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){3,14}(\s*)?$/;
 
