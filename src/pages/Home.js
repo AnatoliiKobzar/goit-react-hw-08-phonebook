@@ -7,7 +7,7 @@ const Home = () => {
 
   return (
     <Wrapper>
-      <h1>Wellcome to Contacts App!</h1>
+      <h1 style={{ textAlign: 'center' }}>Wellcome to Contacts App!</h1>
       {!isLoggedIn && (
         <HomeText>
           <Link to="/login">Log In</Link>
